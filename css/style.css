@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Redressed', cursive;
+    box-sizing: border-box;
+    color: #0A1829;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-family: 'Redressed', cursive;
+    line-height: 1;
+    font-weight: 400;
+}
+
+.logo{
+    height: 4.8rem;
+}
+
+.main-nav-list{
+    list-style: none;
+    display: flex;
+    gap: 3.2rem;
+    align-items: center;
+}
+
+.main-nav-link:link,
+.main-nav-link:visited{
+    display: inline-block;
+    text-decoration: none;
+    font-weight: 700;
+    color: #0A1829;
+    font-size: 1.8rem;
+    transition: all 0.3s;
+}
+
+.main-nav-link:hover,
+.main-nav-link:active{
+    text-decoration: none;
+    font-weight: 700;
+    color: #232f3e;
+    font-size: 1.8rem;
+    transition: all 0.3s;
+}
+
+.main-nav-link.nav-cta:link,
+.main-nav-link.nav-cta:active{
+    color: snow;
+    background-color: #146356;
+    padding: 1.2rem 2.4rem;
+    border-radius: 12px;
+}
+
+.main-nav-link.nav-cta:hover,
+.main-nav-link.nav-cta:active{
+    background-color: #104f45;
+    padding: 1.2rem 2.4rem;
+    border-radius: 12px;
+    color: snow;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #2fdd92;
+    height: 9.6rem;
+    padding: 0 4.8rem;
+}
+
+.section-hero{
+    background-color: #2fdd92;
+    padding: 4.8rem 0 9.6rem 0;
+    clip-path: polygon(0 0, 100% 0, 100% 600px, 0 100%);
+}
+
+.hero{
+    max-width: 130rem;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    gap: 9.6rem;
+    padding: 0 3.2rem;
+}
+
+.heading-primary{
+    font-size: 5.2rem;
+    line-height: 1.05;
+    font-weight: 700;
+    color: snow;
+    margin-bottom: 3.2rem;
+    color: #0A1829;
+}
+
+.intro{
+    font-size: 6.4rem;
+    line-height: 1.05;
+    font-weight: 700;
+    color: snow;
+    margin-bottom: 3.2rem;
+    color: #0A1829;
+}
+
+.hero-description{
+    font-size: 2.2rem;
+    line-height: 1.6;
+    letter-spacing: -0.5px;
+    margin-bottom: 4.8rem;
+    color: #0A1829;
+}
+
+.btn:link,
+.btn:visited {
+    display: inline-block;
+    font-size: 2rem;
+    padding: 1.6rem 3.2rem;
+    border-radius: 12px;
+    text-decoration: none;
+    transition: all 1s;
+    font-weight: 600;
+    color: #0A1829;
+}
+
+.margin-small{
+    margin-right: 1.6rem !important;
+}
+
+.btn--full:link,
+.btn--full:visited{
+    background-color: #146356;
+    color: snow;
+}
+
+.btn--full:hover,
+.btn--full:active{
+    background-color: #104f45;
+    color: snow;
+}
+
+.btn--outline:link,
+.btn--outline:visited{
+    background-color: snow;
+    color: #0A1829;;
+}
+
+.btn--outline:hover,
+.btn--outline:active{
+    background-color: #2fdd92;
+    box-shadow: inset 0 0 0 3px snow;
+}
+
+.hero-img{
+    width: 100%;
+}
