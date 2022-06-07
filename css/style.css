@@ -96,14 +96,6 @@ body{
     color: #0A1829;
 }
 
-.intro{
-    font-size: 6.4rem;
-    line-height: 1.05;
-    font-weight: 700;
-    color: snow;
-    margin-bottom: 3.2rem;
-    color: #0A1829;
-}
 
 .hero-description{
     font-size: 2.2rem;
@@ -155,4 +147,175 @@ body{
 
 .hero-img{
     width: 100%;
+}
+
+
+/* #########
+    Skills 
+   ######### */
+
+.skills{
+    padding: 8.2rem;
+}
+
+.section-intro{
+    font-size: 3.2rem;
+    font-weight: 500;
+    color: #394451;
+    letter-spacing: 1.7;
+}
+
+.section-title{
+    font-size: 3.2rem;
+    font-weight: 500;
+    color: #232f3e;
+    margin-top: 6rem;
+}
+
+.container{
+    text-align: center;
+    margin-bottom: 6.4rem;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 6rem;
+    column-gap: 6rem;
+    width: 100%;
+}
+
+.skill{
+    display: inline-block;
+    padding: 3.2rem;
+    background: snow;
+    color: #232f3eb2;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.178);
+}
+
+.flex-container{
+    display: flex;
+    gap: 1.8rem;
+    align-items: center;
+}
+
+.skill-title{
+    font-size: 3rem;
+    color: #394451;
+}
+
+.skill-bar{
+    width: 80%; /* Full width */
+    margin-top: 2rem;
+    background-color: #777; /* Grey background */
+  }
+  
+.skill-strength{
+    text-align: right; /* Right-align text */
+    padding-top: 2px; /* Add top padding */
+    padding-bottom: 2px; /* Add bottom padding */
+    font-size: 1.6rem;
+    color: blanchedalmond;
+  }
+
+.python{
+    width: 85%;
+    background-color: #104f45;
+}
+
+.js{
+    width: 75%;
+    background-color: #104f45;
+}
+
+.go{
+    width: 70%;
+    background-color: #104f45;
+}
+
+.ml{
+    width: 80%;
+    background-color: #104f45;
+}
+
+.django{
+    width: 80%;
+    background-color: #104f45;
+}
+
+.docker{
+    width: 75%;
+    background-color: #104f45;
+}
+
+.k8s{
+    width: 70%;
+    background-color: #104f45;
+}
+
+.react{
+    width: 75%;
+    background-color: #104f45;
+}
+
+.kafka{
+    width: 70%;
+    background-color: #104f45;
+}
+
+/* #########
+    Projects 
+   ######### */
+
+.project-container {
+    max-width: 130rem;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    gap: 9.6rem;
+    padding: 0 3.2rem;
+    margin-bottom: 9.6rem;
+}
+
+.section-intro{
+    row-gap: 9rem;
+    text-align: center;
+    font-size: 4.8rem;
+}
+
+.section-description{
+    text-align: center;
+    font-size: 3.8rem;
+}
+
+.projects{
+    max-width: 130rem;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    gap: 9.6rem;
+    padding: 0 3.2rem;
+}
+
+.project{
+    background-color: #00FFAB;
+    border: #0A1829 3px solid;
+    display: flex;
+}
+
+.step-img-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.project-title{
+    font-size: 3.2rem;
+}
+
+.project-description{
+    font-size: 2.4rem;
 }
